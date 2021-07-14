@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Enderturtle&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2021-07-09T08:55:49.158Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>Enderturtle</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>本站食用指南~</title>
+    <link href="/201314/05/20/%E6%9C%AC%E7%AB%99%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <id>/201314/05/20/本站食用指南/</id>
+    <published>+201314-05-20T05:57:00.000Z</published>
+    <updated>2021-07-09T08:55:49.158Z</updated>
+    
+    <summary type="html">
+    
+      必读哦！
+    
+    </summary>
+    
+      <category term="博客相关" scheme="/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CF643G Choosing Ads</title>
+    <link href="/2021/07/09/CF643G-Choosing-Ads/"/>
+    <id>/2021/07/09/CF643G-Choosing-Ads/</id>
+    <published>2021-07-09T15:53:36.000Z</published>
+    <updated>2021-07-09T16:08:28.147Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="线段树" scheme="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="难度:中等" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E4%B8%AD%E7%AD%89/"/>
+    
+      <category term="众数" scheme="/tags/%E4%BC%97%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新春快乐</title>
+    <link href="/2021/02/12/%E6%96%B0%E6%98%A5%E5%BF%AB%E4%B9%90/"/>
+    <id>/2021/02/12/新春快乐/</id>
+    <published>2021-02-11T16:00:00.000Z</published>
+    <updated>2021-02-11T15:59:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;祝大家新春快乐！&lt;/p&gt;
+&lt;p&gt;好久没更新了抱歉&lt;/p&gt;
+&lt;p&gt;希望我能2021高考成功吧！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imgchr.com/i/yDkwy6&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>完全平方数</title>
+    <link href="/2020/04/28/%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0/"/>
+    <id>/2020/04/28/完全平方数/</id>
+    <published>2020-04-28T09:27:15.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="数论" scheme="/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="容斥" scheme="/tags/%E5%AE%B9%E6%96%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[SDOI2013]随机数生成器</title>
+    <link href="/2020/04/24/SDOI2013-%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8/"/>
+    <id>/2020/04/24/SDOI2013-随机数生成器/</id>
+    <published>2020-04-24T07:20:32.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="BSGS" scheme="/tags/BSGS/"/>
+    
+      <category term="数论" scheme="/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CF1336</title>
+    <link href="/2020/04/16/CF1336/"/>
+    <id>/2020/04/16/CF1336/</id>
+    <published>2020-04-16T09:52:47.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;难得的国人赛，但我是憨憨。&lt;/p&gt;
+&lt;h1 id=&quot;Problem-A&quot;&gt;&lt;a href=&quot;#Problem-A&quot; class=&quot;headerlink&quot; title=&quot;Problem A&quot;&gt;&lt;/a&gt;Problem A&lt;/h1&gt;&lt;h2 id=&quot;Analysis&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="总结" scheme="/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[ZJOI2015]幻想乡战略游戏</title>
+    <link href="/2020/04/01/ZJOI2015-%E5%B9%BB%E6%83%B3%E4%B9%A1%E6%88%98%E7%95%A5%E6%B8%B8%E6%88%8F/"/>
+    <id>/2020/04/01/ZJOI2015-幻想乡战略游戏/</id>
+    <published>2020-04-01T13:47:58.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:中等" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E4%B8%AD%E7%AD%89/"/>
+    
+      <category term="贪心" scheme="/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+      <category term="点分治" scheme="/tags/%E7%82%B9%E5%88%86%E6%B2%BB/"/>
+    
+      <category term="动态点分治" scheme="/tags/%E5%8A%A8%E6%80%81%E7%82%B9%E5%88%86%E6%B2%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[ZJOI2007]捉迷藏</title>
+    <link href="/2020/04/01/ZJOI2007-%E6%8D%89%E8%BF%B7%E8%97%8F/"/>
+    <id>/2020/04/01/ZJOI2007-捉迷藏/</id>
+    <published>2020-04-01T06:54:34.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:中等" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E4%B8%AD%E7%AD%89/"/>
+    
+      <category term="树链剖分" scheme="/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    
+      <category term="点分治" scheme="/tags/%E7%82%B9%E5%88%86%E6%B2%BB/"/>
+    
+      <category term="动态点分治" scheme="/tags/%E5%8A%A8%E6%80%81%E7%82%B9%E5%88%86%E6%B2%BB/"/>
+    
+      <category term="删除堆" scheme="/tags/%E5%88%A0%E9%99%A4%E5%A0%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>矩阵</title>
+    <link href="/2019/12/31/%E7%9F%A9%E9%98%B5/"/>
+    <id>/2019/12/31/矩阵/</id>
+    <published>2019-12-31T12:37:23.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      The article has been encrypted, please enter your password to view.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:困难" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E5%9B%B0%E9%9A%BE/"/>
+    
+      <category term="线性基" scheme="/tags/%E7%BA%BF%E6%80%A7%E5%9F%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[LGOJ3620][APIO/CTSC2007]数据备份</title>
+    <link href="/2019/12/26/LGOJ3620-APIO-CTSC2007-%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/"/>
+    <id>/2019/12/26/LGOJ3620-APIO-CTSC2007-数据备份/</id>
+    <published>2019-12-26T11:37:46.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:中等" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E4%B8%AD%E7%AD%89/"/>
+    
+      <category term="贪心" scheme="/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+      <category term="链表" scheme="/tags/%E9%93%BE%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PNYWE-D1</title>
+    <link href="/2019/12/25/PNYWE-DAY1/"/>
+    <id>/2019/12/25/PNYWE-DAY1/</id>
+    <published>2019-12-25T13:38:48.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      The article has been encrypted, please enter your password to view.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="贪心" scheme="/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+      <category term="搜索" scheme="/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+      <category term="构造" scheme="/tags/%E6%9E%84%E9%80%A0/"/>
+    
+      <category term="CRT" scheme="/tags/CRT/"/>
+    
+      <category term="meet in middle" scheme="/tags/meet-in-middle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[LGOJ3313][SDOI2014] 旅行</title>
+    <link href="/2019/12/24/LGOJ3313-SDOI2014-%E6%97%85%E8%A1%8C/"/>
+    <id>/2019/12/24/LGOJ3313-SDOI2014-旅行/</id>
+    <published>2019-12-24T12:50:48.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="线段树" scheme="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="树链剖分" scheme="/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[LGOJ2982][Usaco2010 Feb] Slowing down</title>
+    <link href="/2019/12/24/LGOJ2982-Usaco2010-Feb-Slowing-down/"/>
+    <id>/2019/12/24/LGOJ2982-Usaco2010-Feb-Slowing-down/</id>
+    <published>2019-12-24T03:46:20.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="dfs序" scheme="/tags/dfs%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[CF413E] Maze 2D</title>
+    <link href="/2019/12/24/CF413E-Maze-2D/"/>
+    <id>/2019/12/24/CF413E-Maze-2D/</id>
+    <published>2019-12-24T03:12:09.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="线段树" scheme="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎有缘人进入</title>
+    <link href="/2019/12/23/%E6%AC%A2%E8%BF%8E%E6%9C%89%E7%BC%98%E4%BA%BA%E8%BF%9B%E5%85%A5/"/>
+    <id>/2019/12/23/欢迎有缘人进入/</id>
+    <published>2019-12-23T11:11:25.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      The article has been encrypted, please enter your password to view.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[LGOJ2486][SDOI2011] 染色</title>
+    <link href="/2019/12/23/LGOJ2486-SDOI2011-%E6%9F%93%E8%89%B2/"/>
+    <id>/2019/12/23/LGOJ2486-SDOI2011-染色/</id>
+    <published>2019-12-23T05:35:23.000Z</published>
+    <updated>2021-02-10T15:19:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;h2 id=&quot;Description&quot;&gt;&lt;a href=&quot;#Description&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+      <category term="线段树" scheme="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="树链剖分" scheme="/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>New_Blog</title>
+    <link href="/2019/12/22/New_Blog/"/>
+    <id>/2019/12/22/New_Blog/</id>
+    <published>2019-12-22T10:00:00.000Z</published>
+    <updated>2021-07-09T08:56:07.294Z</updated>
+    
+    <summary type="html">
+    
+      Hello World!
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="博客相关" scheme="/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+</feed>
