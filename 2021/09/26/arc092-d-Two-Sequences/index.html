@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">theme-sakura | Enderturtle&#39;s Blog</title>
+  <title itemprop="name">arc092-d-Two-Sequences | Enderturtle&#39;s Blog</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -325,24 +325,123 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-    <div class="pattern-center ">
-      <div class="pattern-attachment-img">
-        <img src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/startdash/sakura.md.png" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-      </div>
-      <header class="pattern-header ">
-        <h1 class="entry-title">
-        Hexo 主题 Sakura 🌸</h1>
-      </header>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/HTC-Group/blog_img/202109260859852.png);" src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/HTC-Group/blog_img/202109260859852.png">
     </div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <p>Hexo主题Sakura修改自WordPress主题<a href="https://github.com/mashirozx/Sakura/" target="_blank" rel="noopener">Sakura</a>，感谢原作者<a href="https://2heng.xin/" target="_blank" rel="noopener">Mashiro</a></p>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      arc092-d-Two-Sequences</h1>
+      <p class="entry-census">
+        <span>
+          <a href="">
+            <img src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/custom/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="">Enderturtle</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2021-9-26<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"> 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+     <h1 id="Problem"><a href="#Problem" class="headerlink" title="Problem"></a>Problem</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>给定n个数的数组A和数组B，求所有A[i]+B[j]的异或和(1&lt;=i,j&lt;=n)。n&lt;=200000。</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>n</p>
+<p>$a_1,a_2…a_n$</p>
+<p>$b_1,b_2…b_3$</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><p>Print the result of the computation.</p>
+<h2 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h2><pre><code>6
+4 6 0 0 3 3
+0 5 6 5 0 3
+</code></pre><h2 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h2><pre><code>8
+</code></pre><h2 id="HINT"><a href="#HINT" class="headerlink" title="HINT"></a>HINT</h2><p>$n&lt;=200000$</p>
+<h1 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h1><h2 id="Analysis"><a href="#Analysis" class="headerlink" title="Analysis"></a>Analysis</h2><p>考虑低位对高位的贡献。</p>
+<p>对于某一位$k$，考虑什么情况下$a_i+b_j$对这位产生贡献。</p>
+<p>显然的事实是如果$a_i+b_j$​对$k$产生了贡献，那么只会低位对高位产生贡献即：</p>
+<p>$base=(1&lt;&lt;(k+1))-1$</p>
+<p>只需考虑$a_i\&amp;base$​和$b_i\&amp;base$​对$k$这位的贡献。</p>
+<p>显然的是$max(a_i+b_j)=(base&lt;&lt;1)$​，即$a_i+b_j$的最高位不会大于$k+1$；</p>
+<p>考虑什么时候不产生贡献：</p>
+<p>(1) $a_i+b_j &lt; (1&lt;&lt;k)$</p>
+<p>(2) $(1&lt;&lt;(k+1))\le a_i+b_j &lt;(1&lt;&lt;(k+1)+(1&lt;&lt;k))$ </p>
+<p>对每层${b}$按照${b\&amp;base}$排序，对于每个$a_i$产生的贡献即为</p>
+<p>$A$:$a_i+b_j\ge(1&lt;&lt;k)$</p>
+<p>$B$:$(1&lt;&lt;(k+1))\le a_i+b_j &lt;(1&lt;&lt;(k+1)+(1&lt;&lt;k))$ </p>
+<p>$sum=A-B$ </p>
+<h2 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h2><p>注意二分边界</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><pre><code class="lang-cpp">#include&lt;bits/stdc++.h&gt;
+#define rep(i,a,b) for(register int i=a;i&lt;=b;++i)
+#define il inline
+typedef long long ll;
+using namespace std;
+il int read(){ int x;scanf(&quot;%d&quot;,&amp;x);return x;}
+const int N=200010;
+ll a[N],b[N],c[N];int n;
+
+il ll find(ll x,ll v){
+    v-=x;
+    int l=1,r=n,res=0;
+    while(l&lt;=r){
+        int mid=(l+r)&gt;&gt;1;
+        if(c[mid]&gt;=v){ res=mid;l=mid+1;}
+        else r=mid-1;
+    }
+    return res;
+}
+
+int main(){
+    n=read();
+    rep(i,1,n) a[i]=read();
+    rep(i,1,n) b[i]=read();
+    ll ans=0;
+    rep(k,1,29){
+        ll base=(1&lt;&lt;k)-1,sum=0;
+        rep(i,1,n) c[i]=(b[i]&amp;base);
+        sort(c+1,c+1+n,greater&lt;ll&gt;());
+        rep(i,1,n) sum+=find(a[i]&amp;base,(1&lt;&lt;(k-1)));
+        rep(i,1,n) sum-=find(a[i]&amp;base,(1&lt;&lt;k))-find(a[i]&amp;base,(1&lt;&lt;k)+(1&lt;&lt;(k-1)));
+        if(sum&amp;1) ans+=(1&lt;&lt;(k-1));
+    }
+    printf(&quot;%lld\n&quot;,ans);
+    return 0;
+}
+</code></pre>
 
       <!-- .entry-content -->
       
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "5wuAqSXF3xfG7BweSn6Hlqhx-MdYXbMMI",
+        appKey: "kfFp3kdg9TVS9yczbtn7KRWW",
+        path: window.location.pathname,
+        placeholder: "昵称输入QQ号会自动填充QQ昵称、头像和邮箱~\\(≧▽≦)/~",
+        highlight: false,
+        requiredFields: ['nick','mail'],
+        enableQQ: true
+      })
+  }
+</script>
+
       <!--
       <div class="single-reward">
         <div class="reward-open">赏
@@ -355,37 +454,98 @@
         </div>
       </div>
     -->
+      </div>
       <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
 
       <footer class="post-footer">
         
         <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
         
-       <!--  <div class="post-lincenses">转载请指明来源 enderturtle.gitee.io</div>      -->
+      <!--   <div class="post-lincenses">转载请指明来源 enderturtle.gitee.io</div>      -->
         <div class="post-tags">
         </div>
         <div class="post-share">
           <div class="social-share sharehidden share-component"></div>
           <i class="iconfont show-share icon-forward"></i>
         </div>
-      </footer><!-- .entry-footer -->
-    </article>
+      </footer><!-- .entry-footer --><!-- .entry-footer -->
+      </article>
       <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/201314/05/20/本站食用指南/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://s1.ax1x.com/2020/04/21/JGDk1P.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://s1.ax1x.com/2020/04/21/JGDk1P.jpg">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                本站食用指南~</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2021/07/09/CF643G-Choosing-Ads/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/HTC-Group/blog_img/20210709135805.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/HTC-Group/blog_img/20210709135805.png">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                CF643G Choosing Ads</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "5wuAqSXF3xfG7BweSn6Hlqhx-MdYXbMMI",
+        appKey: "kfFp3kdg9TVS9yczbtn7KRWW",
+        path: window.location.pathname,
+        placeholder: "昵称输入QQ号会自动填充QQ昵称、头像和邮箱~\\(≧▽≦)/~",
+        highlight: false,
+        requiredFields: ['nick','mail'],
+        enableQQ: true
+      })
+  }
+</script>
+
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/custom/avatar.jpg" itemprop="image" alt="Enderturtle" height="70" width="70"></a>
+          <a href="" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/custom/avatar.jpg" itemprop="image" alt="Enderturtle" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://enderturtle.gitee.io" itemprop="url" rel="author">Enderturtle</a>
+            <a href="" itemprop="url" rel="author">Enderturtle</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>蓦然回首，你会后悔吗</p>
+        <p><i class="iconfont icon-write"></i>一个好奇的人</p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
