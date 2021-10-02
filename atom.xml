@@ -35,6 +35,32 @@
   </entry>
   
   <entry>
+    <title>NWERC2020</title>
+    <link href="/2021/10/02/NWERC2020/"/>
+    <id>/2021/10/02/NWERC2020/</id>
+    <published>2021-10-02T10:14:55.000Z</published>
+    <updated>2021-10-02T11:01:40.718Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Contest-link&quot;&gt;&lt;a href=&quot;#Contest-link&quot; class=&quot;headerlink&quot; title=&quot;Contest link&quot;&gt;&lt;/a&gt;Contest link&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="OI" scheme="/categories/OI/"/>
+    
+    
+      <category term="难度:简单" scheme="/tags/%E9%9A%BE%E5%BA%A6-%E7%AE%80%E5%8D%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>gym102114A</title>
     <link href="/2021/09/30/gym102114A/"/>
     <id>/2021/09/30/gym102114A/</id>
@@ -395,9 +421,9 @@
       <category term="OI" scheme="/categories/OI/"/>
     
     
-      <category term="搜索" scheme="/tags/%E6%90%9C%E7%B4%A2/"/>
-    
       <category term="贪心" scheme="/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+      <category term="搜索" scheme="/tags/%E6%90%9C%E7%B4%A2/"/>
     
       <category term="构造" scheme="/tags/%E6%9E%84%E9%80%A0/"/>
     
@@ -546,26 +572,6 @@
       <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="树链剖分" scheme="/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>New_Blog</title>
-    <link href="/2019/12/22/New_Blog/"/>
-    <id>/2019/12/22/New_Blog/</id>
-    <published>2019-12-22T10:00:00.000Z</published>
-    <updated>2021-07-09T08:56:07.294Z</updated>
-    
-    <summary type="html">
-    
-      Hello World!
-    
-    </summary>
-    
-      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="博客相关" scheme="/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
