@@ -362,7 +362,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX1+qSzr+xvwQmP0xqMpD05IdtFsrzo3XK0HZ37J1rgRIq6BUVASpoqGV88tD91qyzDcjL+dzKE/9fjLpzKLsZ+rzo2cm10HpK/eA8qg9/XmggsDclIw+r0yQ4R15phOO0sXf8vQZA2HZ53Zz+9uhJowMk5AAHiSJx3ypC3yFWEYe+Ro/ybgtKDYFu67w/LPt9Nj8tkObaNWMG1WlcBoSyT9uPm48GgV1o47H2hJwkx9JshDiIdJiv6hnklGaUQIUyvyqD9DDrgSNu62q8jf1pLS1jiyUx78ERnA=
+U2FsdGVkX1+VBf9WUM40yFOpcdNDXQ2Ycl5tvgowaoNDf7R4PQjxsiX6vKhY6yHp1TCAcdUOV/asI/NdqkMooScqh1xkN3yDT68FVkf2FgQcxcGZIrbaR2HNeBzz7RkmtuDjJpCTc6lwddaziZAjsAbwFs9IWnUqMddap8XA5r/lV5qJj2rbWGd56YieMitJHgsK6Wr5QyDgT2ovgtYVP4gseDQrPArdlIa5TEziWV+pu1kJ22R015MQ8aNkACaAgi7oHOy8MqR3IRkuCkMQHG19ADG0EVz4esCDkcIN82w=
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       <!-- .entry-content -->
@@ -545,7 +545,9 @@ U2FsdGVkX1+qSzr+xvwQmP0xqMpD05IdtFsrzo3XK0HZ37J1rgRIq6BUVASpoqGV88tD91qyzDcjL+dz
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.min.js"></script>
-<script src='//unpkg.com/valine@latest/dist/Valine.min.js'></script>
+<!-- <script src='//unpkg.com/valine@latest/dist/Valine.min.js'></script> -->
+<script src='//cdn.jsdelivr.net/npm/@waline/client'></script>
+
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -865,20 +867,5 @@ $(document).ready(function() {
   });
 </script>
   <script src="/live2d-widget/autoload.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

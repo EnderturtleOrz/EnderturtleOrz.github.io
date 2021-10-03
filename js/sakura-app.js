@@ -1098,8 +1098,8 @@ var home = location.href,
       }
     },
     VA: function () {
-      if (!valine) {
-        var valine = new Valine()
+/*      if (!valine) {
+       var valine = new Valine()
         valine.init({
           el: '#vcomments',
           appId: mashiro_option.v_appId,
@@ -1109,7 +1109,14 @@ var home = location.href,
           highlight: false,
           requiredFields: ['nick', 'mail'],
           enableQQ: true
+
         })
+      }*/
+      if (!valine) {
+        Waline({
+          el: '#vcomments',
+          serverURL: 'https://blog-waline-33ripph53-htc-group.vercel.app/',
+        });
       }
     },
     MJ: function () {

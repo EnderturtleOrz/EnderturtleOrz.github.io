@@ -706,7 +706,9 @@ int main(){
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.min.js"></script>
-<script src='//unpkg.com/valine@latest/dist/Valine.min.js'></script>
+<!-- <script src='//unpkg.com/valine@latest/dist/Valine.min.js'></script> -->
+<script src='//cdn.jsdelivr.net/npm/@waline/client'></script>
+
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -1026,20 +1028,5 @@ $(document).ready(function() {
   });
 </script>
   <script src="/live2d-widget/autoload.js"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
