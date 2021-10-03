@@ -396,7 +396,7 @@ function scrollBar () {
       var b = $(window).height()
       var result = parseInt(s / (a - b) * 100)
       $('#bar').css('width', result + '%')
-      if (false) {
+      if (true) {
         if (result >= 0 && result <= 19) {
           $('#bar').css('background', '#cccccc')
         }
