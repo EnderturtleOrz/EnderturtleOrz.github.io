@@ -1098,7 +1098,7 @@ var home = location.href,
       }
     },
     VA: function () {
-/*      if (!valine) {
+      if (!valine) {
        var valine = new Valine()
         valine.init({
           el: '#vcomments',
@@ -1111,13 +1111,13 @@ var home = location.href,
           enableQQ: true
 
         })
-      }*/
-      if (!valine) {
+      }
+    /*  if (!valine) {
         Waline({
           el: '#vcomments',
           serverURL: 'https://blog-waline-33ripph53-htc-group.vercel.app/',
         });
-      }
+      }*/
     },
     MJ: function () {
       if (mashiro_option.mathjax == '1') {
@@ -1571,7 +1571,6 @@ $(function () {
           $.getScript('//static.duoshuo.com/embed.js')
         }
       }
-      $.getScript("//cdn.jsdelivr.net/npm/@waline/client");
           $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML", function() {
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         // entry-content是文章页的内容div的class
