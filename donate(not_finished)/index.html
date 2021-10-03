@@ -320,7 +320,7 @@
 </div>
 <div class="pattern-center ">
   <div class="pattern-attachment-img">
-    <img src="" src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+    <img src="null" src="https://cdn.jsdelivr.net/gh/HTC-Group/cdn@1.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="null" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
   </div>
   <header class="pattern-header ">
     <h1 class="entry-title">谢谢饲主了喵~</h1>
@@ -829,5 +829,20 @@ $(document).ready(function() {
   });
 </script>
   <script src="/live2d-widget/autoload.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
