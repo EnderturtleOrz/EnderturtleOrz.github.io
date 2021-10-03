@@ -65,19 +65,19 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前马上要读于cuhksz"
+                content: "目前就读于cuhksz"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "一个大学生"
+                    content: "本科生呢"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "打算搞cs，以前搞oi"
+                        content: "SDS数据学院，CS"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主要会c++"
+                            content: "主要会c++，现在多了python"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,

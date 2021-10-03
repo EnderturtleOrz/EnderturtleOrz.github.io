@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2021-10-03T02:29:08.073Z</updated>
+  <updated>2021-10-03T06:01:51.859Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/201314/05/20/%E6%9C%AC%E7%AB%99%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     <id>/201314/05/20/本站食用指南/</id>
     <published>+201314-05-20T05:57:00.000Z</published>
-    <updated>2021-10-03T02:29:08.073Z</updated>
+    <updated>2021-10-03T06:01:51.859Z</updated>
     
     <summary type="html">
     
@@ -35,17 +35,43 @@
   </entry>
   
   <entry>
-    <title>nationday2021</title>
-    <link href="/2021/10/03/nationday2021/"/>
-    <id>/2021/10/03/nationday2021/</id>
-    <published>2021-10-03T05:16:31.000Z</published>
-    <updated>2021-10-03T05:16:32.002Z</updated>
+    <title>更新日志[2021.10.3]</title>
+    <link href="/2021/10/03/update2021-10-3/"/>
+    <id>/2021/10/03/update2021-10-3/</id>
+    <published>2021-10-03T05:38:19.000Z</published>
+    <updated>2021-10-03T05:49:15.459Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;h3 id=&quot;2021-10-3更新内容：&quot;&gt;&lt;a href=&quot;#2021-10-3更新内容：&quot; class=&quot;headerlink&quot;
+        
+      
+    
     </summary>
     
-      <category term="OI" scheme="/categories/OI/"/>
+      <category term="博客相关" scheme="/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>国庆随笔</title>
+    <link href="/2021/10/03/nationday2021/"/>
+    <id>/2021/10/03/nationday2021/</id>
+    <published>2021-10-03T05:16:31.000Z</published>
+    <updated>2021-10-03T05:32:03.257Z</updated>
+    
+    <summary type="html">
+    
+      其实只是随手糊几句
+    
+    </summary>
+    
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
@@ -538,24 +564,6 @@
       <category term="线段树" scheme="/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
       <category term="数据结构" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>欢迎有缘人进入</title>
-    <link href="/2019/12/23/%E6%AC%A2%E8%BF%8E%E6%9C%89%E7%BC%98%E4%BA%BA%E8%BF%9B%E5%85%A5/"/>
-    <id>/2019/12/23/欢迎有缘人进入/</id>
-    <published>2019-12-23T11:11:25.000Z</published>
-    <updated>2021-02-10T15:19:51.000Z</updated>
-    
-    <summary type="html">
-    
-      The article has been encrypted, please enter your password to view.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
-    
     
   </entry>
   

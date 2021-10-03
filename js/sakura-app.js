@@ -1619,8 +1619,8 @@ $(function () {
     $(this).postLike()
   })
   console.log('%c Mashiro %c', 'background:#24272A; color:#ffffff', '', 'https://2heng.xin/')
-  console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')
-  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
+  console.log('%c Enderturtle %c', 'background:#24272A; color:#ffffff', '', 'https://enderturtle.gitee.io/')
+  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/HTC-Group')
 })
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
   isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
