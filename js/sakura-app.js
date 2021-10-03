@@ -1571,6 +1571,7 @@ $(function () {
           $.getScript('//static.duoshuo.com/embed.js')
         }
       }
+      $.getScript("//cdn.jsdelivr.net/npm/@waline/client");
           $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML", function() {
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         // entry-content是文章页的内容div的class
