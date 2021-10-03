@@ -1098,7 +1098,7 @@ var home = location.href,
       }
     },
     VA: function () {
-      if (!valine) {
+     /* if (!valine) {
        var valine = new Valine()
         valine.init({
           el: '#vcomments',
@@ -1111,13 +1111,11 @@ var home = location.href,
           enableQQ: true
 
         })
-      }
-    /*  if (!valine) {
+      }*/
         Waline({
           el: '#vcomments',
           serverURL: 'https://blog-waline-33ripph53-htc-group.vercel.app/',
         });
-      }*/
     },
     MJ: function () {
       if (mashiro_option.mathjax == '1') {
