@@ -514,8 +514,8 @@ function switchNightMode() {
     function () {
       var DarkMode = document.cookie.replace(/(?:(?:^|.*;\s*)DarkMode\s*\=\s*([^;]*).*$)|^.*$/, "$1") ||
         '0';
-      (DarkMode == '0') ? ($('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura'),$('.headertop-bar').removeClass('headertop-bar').addClass('headertop-bar-sakura'),$('#banner_wave_1').addClass('banner_wave_hide_fit_skin'),$('#banner_wave_2').addClass('banner_wave_hide_fit_skin'),$("html").addClass("DarkMode"), document.cookie = "DarkMode=1;path=/", console
-        .log('夜间模式开启'), $('#modeicon').attr("xlink:href", "#icon-sun")) : ($('.pattern-center-sakura').removeClass('pattern-center-sakura').addClass('pattern-center'),$('.headertop-bar-sakura').removeClass('headertop-bar-sakura').addClass('headertop-bar'),$('#banner_wave_1').removeClass('banner_wave_hide_fit_skin'),$('#banner_wave_2').removeClass('banner_wave_hide_fit_skin'),$("html").removeClass("DarkMode"), document.cookie = "DarkMode=0;path=/", console.log('夜间模式关闭'), $('#modeicon')
+      (DarkMode == '0') ? ($('#banner_wave_1').addClass('banner_wave_hide_fit_skin'),$("html").addClass("DarkMode"), document.cookie = "DarkMode=1;path=/", console
+        .log('夜间模式开启'), $('#NIGHT').children("i").removeClass("fa fa-moon-o"), $('#NIGHT').children("i").addClass("fa fa-sun-o")) : ($('#NIGHT').children("i").removeClass("fa fa-sun-o"), $('#NIGHT').children("i").addClass("fa fa-moon-o"),$('#banner_wave_1').removeClass('banner_wave_hide_fit_skin'),$("html").removeClass("DarkMode"), document.cookie = "DarkMode=0;path=/", console.log('夜间模式关闭'), $('#modeicon')
             .attr("xlink:href", "#icon-_moon")), setTimeout(function () {
               $(".Cuteen_DarkSky").fadeOut(1e3, function () {
                 $(this).remove()
