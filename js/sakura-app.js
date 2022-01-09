@@ -524,9 +524,14 @@ function switchNightMode() {
     }), 50
 }
 function checkNightMode() {
+  console.log("在检查");
   if ($("html").hasClass("n-f")) {
+    console.log("Check Night");
     $("html").removeClass("day");
     $("html").addClass("DarkMode");
+    $('#NIGHT').children("i").removeClass("fa fa-moon-o");
+    $('#NIGHT').children("i").addClass("fa fa-sun-o");
+    $('#banner_wave_1').addClass('banner_wave_hide_fit_skin');
     $('#modeicon').attr("xlink:href", "#icon-sun")
     return;
   }
@@ -543,6 +548,9 @@ function checkNightMode() {
       document.cookie = "DarkMode=1;path=/";
       console.log('夜间模式开启');
       $('#modeicon').attr("xlink:href", "#icon-sun")
+      $('#NIGHT').children("i").removeClass("fa fa-moon-o");
+      $('#NIGHT').children("i").addClass("fa fa-sun-o");
+      $('#banner_wave_1').addClass('banner_wave_hide_fit_skin');
     } else {
       $("html").removeClass("DarkMode");
       document.cookie = "DarkMode=0;path=/";
@@ -557,10 +565,12 @@ function checkNightMode() {
     } else if (DarkMode == '1') {
       $("html").addClass("DarkMode");
       $('#modeicon').attr("xlink:href", "#icon-sun")
+      $('#NIGHT').children("i").removeClass("fa fa-moon-o");
+      $('#NIGHT').children("i").addClass("fa fa-sun-o");
+      $('#banner_wave_1').addClass('banner_wave_hide_fit_skin');
     }
   }
 }
-checkNightMode();
 /* Night End */
 
 function no_right_click () {
@@ -574,6 +584,7 @@ if (mashiro_global.variables.isNight) {
   $('.changeSkin-gear, .toc').css('background', 'none')
 }
 $(document).ready(function () {
+  checkNightMode();
   function changeBG (tagid, url) {
     $('.skin-menu ' + tagid).click(function () {
       mashiro_global.variables.skinSecter = true
