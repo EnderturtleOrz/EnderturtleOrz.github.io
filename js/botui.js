@@ -69,15 +69,15 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "本科生呢"
+                    content: "本科生"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "SDS数据学院，CS"
+                        content: "SDS数据学院，CSE"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主要会c++，现在多了python"
+                            content: "主要会c++，现在多了python，java"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
@@ -111,7 +111,7 @@ function bot_ui_ini() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是古明地恋呢？ 🤔",
+                        text: "为什么是幻想乡呢？ 🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为古明地恋txdy"
+                content: "因为我是个东方厨"
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "（各种意义上）"
+                    content: "幻想乡真的很好"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "没啥，就是普通的码云名"
+                content: "没啥，就是普通的Github名"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
