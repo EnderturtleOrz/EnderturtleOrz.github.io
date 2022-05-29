@@ -1393,10 +1393,13 @@ var home = location.href,
 
         })
       }*/
+      if(!valine){
+        var valine=true;
         Waline({
           el: '#vcomments',
           serverURL: 'https://blog-waline-33ripph53-htc-group.vercel.app/',
         });
+      }
     },
     MJ: function () {
       if (mashiro_option.mathjax == '1') {
